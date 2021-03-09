@@ -1,0 +1,11 @@
+{
+	"start_date":"2017-01-01",
+	"end_date":"2020-01-01",
+	"codes":["BA", "KO", "F", "IBM", "GE", "JPM", "MSFT", "NKE", "WMT", "XOM"],
+	"features":["Adj Close"],
+	"window_length": 3,
+	"epochs":"1000",
+	"trainable":"True",
+    "transaction_cost": 0.005,
+	"learning_rate": 0.001
+}
